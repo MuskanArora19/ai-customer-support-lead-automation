@@ -1,4 +1,4 @@
-# 🤖 AI Customer Support Lead Intake & Qualification Automation
+# AI Customer Support Lead Intake & Qualification Automation
 
 An AI-powered lead intake, qualification, deduplication, and intelligent routing automation built with **Make.com, OpenAI, Google Sheets, Gmail, Webhooks, and JSON**.
 
@@ -6,7 +6,7 @@ The system automatically captures customer enquiries, checks for duplicate leads
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 Businesses receive customer enquiries through forms, websites, chat systems, and other channels.
 
@@ -23,7 +23,7 @@ This project demonstrates how **AI and no-code automation** can transform this p
 
 ---
 
-## 🎯 Business Problem
+## Business Problem
 
 A typical customer enquiry process may require an employee to:
 
@@ -44,7 +44,7 @@ Build an automation that can handle these steps automatically while maintaining 
 
 ---
 
-## 💡 Solution
+## Solution
 
 The automation follows this process:
 
@@ -63,7 +63,7 @@ The system then routes the lead according to predefined business rules.
 
 ---
 
-## ⚙️ Workflow Architecture
+## Workflow Architecture
 
 ```text
 Customer Enquiry
@@ -92,32 +92,32 @@ Gmail Alert     Gmail Follow-up   Google Sheets
 
 ---
 
-## 🧠 AI Lead Qualification
+## AI Lead Qualification
 
 OpenAI evaluates each new lead using the information provided by the customer.
 
-### AI-generated fields
+### AI-Generated Fields
 
-| Field              | Purpose                                       |
-| ------------------ | --------------------------------------------- |
-| Category           | Identifies the type of requirement            |
-| Priority           | Low, Medium, or High                          |
-| Lead Temperature   | Cold, Warm, or Hot                            |
-| Lead Score         | Score from 0–100                              |
-| Recommended Action | Suggests the appropriate next business action |
-| Summary            | Provides a concise summary of the enquiry     |
+| Field              | Purpose                                        |
+| ------------------ | ---------------------------------------------- |
+| Category           | Identifies the type of requirement             |
+| Priority           | Classifies the enquiry as Low, Medium, or High |
+| Lead Temperature   | Classifies the lead as Cold, Warm, or Hot      |
+| Lead Score         | Generates a score from 0–100                   |
+| Recommended Action | Suggests the appropriate next business action  |
+| Summary            | Provides a concise summary of the enquiry      |
 
 The AI is instructed to use **only the information provided by the customer** and avoid inventing facts.
 
 ---
 
-## 🔐 Duplicate Prevention
+## Duplicate Prevention
 
-Duplicate prevention happens before AI processing.
+Duplicate prevention happens **before AI processing**.
 
 The workflow searches Google Sheets using the customer's **email address**.
 
-### Existing lead
+### Existing Lead
 
 ```text
 Search Rows
@@ -129,7 +129,7 @@ Duplicate Filter
 Workflow stops
 ```
 
-### New lead
+### New Lead
 
 ```text
 Search Rows
@@ -145,33 +145,33 @@ Using email as the primary identifier prevents the same lead from unnecessarily 
 
 ---
 
-## 🚦 Intelligent Lead Routing
+## Intelligent Lead Routing
 
 After AI qualification, the Router applies predefined business rules.
 
-### 🔥 Hot + High Priority
+### Hot + High Priority
 
 High-priority hot leads trigger an immediate Gmail notification.
 
 **Action:** Contact the lead as soon as possible.
 
-### 🟡 Warm Leads
+### Warm Leads
 
 Warm leads trigger an automated follow-up email.
 
 **Action:** Review the enquiry and follow up.
 
-### 🔵 Cold / Other Leads
+### Cold / Other Leads
 
 Cold and unmatched leads are handled through the fallback route and updated in Google Sheets.
 
 **Action:** Store and monitor without sending an immediate alert.
 
-This ensures that important leads receive faster attention while reducing unnecessary notifications.
+This routing approach helps ensure that higher-priority leads receive faster attention while reducing unnecessary notifications.
 
 ---
 
-# 📸 Project Screenshots
+# Project Screenshots
 
 ## 1. Complete Workflow
 
@@ -221,11 +221,11 @@ Shows successful end-to-end testing of the automation across different lead scen
 
 ---
 
-# 🧪 Testing
+# Testing
 
-The workflow was tested using multiple lead scenarios.
+The workflow was tested using multiple lead scenarios covering Hot, Warm, Cold, and Duplicate cases.
 
-### 🔥 Hot Lead — Kabir Sharma
+### Hot Lead — Kabir Sharma
 
 * **Budget:** ₹200,000
 * **Urgency:** High
@@ -236,7 +236,7 @@ The workflow was tested using multiple lead scenarios.
 
 ---
 
-### 🟡 Warm Lead — Simran Kapoor
+### Warm Lead — Simran Kapoor
 
 * **Budget:** ₹60,000
 * **Urgency:** Medium
@@ -246,7 +246,7 @@ The workflow was tested using multiple lead scenarios.
 
 ---
 
-### 🔵 Cold Lead — Rohan Gupta
+### Cold Lead — Rohan Gupta
 
 * **Budget:** ₹10,000
 * **Urgency:** Low
@@ -256,7 +256,7 @@ The workflow was tested using multiple lead scenarios.
 
 ---
 
-### 🔁 Duplicate Lead
+### Duplicate Lead
 
 An existing email address was submitted again.
 
@@ -264,7 +264,7 @@ An existing email address was submitted again.
 
 ---
 
-# 🛠️ Tools & Technologies
+# Tools & Technologies
 
 * **Make.com** — Workflow automation platform
 * **OpenAI** — AI-powered lead qualification
@@ -277,7 +277,7 @@ An existing email address was submitted again.
 
 ---
 
-# 💼 Business Value
+# Business Value
 
 This automation can help businesses:
 
@@ -293,7 +293,7 @@ This automation can help businesses:
 
 ---
 
-# 👩‍💻 My Contribution
+# My Contribution
 
 I designed and implemented the complete automation workflow, including:
 
@@ -315,7 +315,7 @@ I designed and implemented the complete automation workflow, including:
 
 ---
 
-# 🧩 Skills Demonstrated
+# Skills Demonstrated
 
 ## AI & Automation
 
@@ -348,7 +348,7 @@ I designed and implemented the complete automation workflow, including:
 
 ---
 
-# 🌎 Potential Business Applications
+# Potential Business Applications
 
 The same automation architecture can be adapted for:
 
@@ -365,7 +365,7 @@ The same automation architecture can be adapted for:
 
 ---
 
-# 🚀 Future Improvements
+# Future Improvements
 
 Potential future versions could include:
 
@@ -383,7 +383,7 @@ Potential future versions could include:
 
 ---
 
-# 📊 Project Outcome
+# Project Outcome
 
 This project demonstrates how **AI + no-code automation + business logic** can transform a manual customer enquiry process into an automated operational workflow.
 
@@ -395,14 +395,22 @@ The workflow was successfully tested across **Hot, Warm, Cold, and Duplicate** l
 
 ---
 
-## 📁 Project Type
+## Project Type
 
 **AI Business Automation / No-Code Workflow Automation**
 
-## 🧰 Primary Platform
+## Primary Platform
 
 **Make.com**
 
-## ✅ Status
+## Status
 
 **Completed & Tested**
+
+---
+
+## Author
+
+**Muskan Arora**
+
+AI Automation & Business Operations Specialist
